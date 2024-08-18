@@ -1,0 +1,12 @@
+#about .box{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.34);
+}
+
+#about .btn{
+    background-color: var(--first-color);
+    transition: all .3 ease-in-out;
+}
+
+#about .btn:hover{
+    background-color: var(--first-color-hover);
+}

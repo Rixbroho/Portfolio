@@ -1,0 +1,14 @@
+#contact .container>p{
+    color: var(--text-color-second);
+}
+
+#contact .box,#contact .btn{
+    background-color: var(--second-color);
+    color: var(--color-white);
+    transition: all .3s ease-in-out;
+}
+
+#contact .btn:hover,#contact .box:hover{
+    background-color: var(--first-color-hover);
+}
+
