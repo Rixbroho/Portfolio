@@ -83,11 +83,11 @@ header{
     color: var(--color-white);
 }
 
-.menu{      
+.slide{      
     display: none;
 }
 
-.menu-btn{
+.slide-btn{
     background-color: var(--body-color);
     cursor: pointer ;
     right: 20px;
@@ -103,6 +103,7 @@ header{
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
+    /* transition: all 5s linear; */
 }
 
 .menu-option li{
@@ -162,7 +163,7 @@ header{
 }
 
 @media (max-width:1000px) {
-    .menu{
+    .slide{
         display: flex;
         align-items: center;
     }
