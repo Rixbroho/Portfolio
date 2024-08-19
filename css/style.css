@@ -98,14 +98,20 @@ header{
     height: 100vh;
     background-color: #fafafaa8;
     backdrop-filter: blur(20px);
-    overflow: hidden;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
-    /* transition: all 5s linear; */
 }
 
+/* .menu-option.on{
+    width: 100vw;
+} */
+
+.off{
+    display: none !important;
+}
 .menu-option li{
     padding: 20px;
 }
@@ -115,9 +121,6 @@ header{
     margin-bottom: auto;
 }
 
-.off{
-    display: none !important;
-}
 
 #home ul{
     /* margin-top: 90px; */
